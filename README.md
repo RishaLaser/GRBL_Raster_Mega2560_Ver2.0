@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 GRBL-Arduino-Library
 ====================
 
@@ -18,3 +19,15 @@ How to install it:
 - Click on the following menu : File -> Examples – > GRBL (or what ever you renamed the folder to) -> ArduinoUno
 
 - Upload the sketch to your Arduino board.
+=======
+GRBL_Raster_Mega2560_Ver2.0
+===========================
+
+A Modified version Of GRBL To work with Arduino Mega 2560 With The Raster Capability Added For Laser Cutter CNC Machines
+
+
+Added Modifications In This Version
+-------------------------------------
+1) Power Control Using PWM Generated From Atmega328p
+2) Serial 1 Usage Of Arduino Mega (For Atmega328 Communication)
+>>>>>>> 730ede92685438dbb1f8cfcc502cd5c77b663c76
