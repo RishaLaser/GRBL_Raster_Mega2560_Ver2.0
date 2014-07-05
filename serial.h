@@ -37,8 +37,8 @@
 #define SERIAL_NO_DATA 0xff
 
 #ifdef ENABLE_XONXOFF
-  #define RX_BUFFER_FULL 96 // XOFF high watermark
-  #define RX_BUFFER_LOW 64 // XON low watermark
+  #define RX_BUFFER_FULL 300//96 // XOFF high watermark
+  #define RX_BUFFER_LOW 300//64 // XON low watermark
   #define SEND_XOFF 1
   #define SEND_XON 2
   #define XOFF_SENT 3
