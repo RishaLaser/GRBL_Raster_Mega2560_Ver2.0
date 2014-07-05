@@ -215,6 +215,7 @@ while(!finished)
     if ((d == '\n') || (d == '\r')) {
       if (char_counter2 > 0) {
         line2[char_counter2] = 0;
+        
         //char_counter2 = 0;
         finished = true;
        
@@ -227,6 +228,7 @@ while(!finished)
     checkZ();
   }
 }
+serial_reset_read_buffer();
 return line2;
 }
 
@@ -247,6 +249,7 @@ while(!finished)
     if ((d == '\n') || (d == '\r')) {
       if (char_counter3 > 0) {
         line3[char_counter3] = 0;
+        
         //char_counter2 = 0;
         finished = true;
        
@@ -258,6 +261,7 @@ while(!finished)
     }
   }
 }
+serial_reset_read_buffer2();
 return line3;
 }
 
@@ -393,7 +397,7 @@ void Raster()
       p[3] = 0;
 
       laserPercentage = atoi(p);
-      serial_reset_read_buffer2();
+      //serial_reset_read_buffer2();
       printStringS1("p");
       printIntegerS1(laserPercentage);
       printStringS1("\n");
@@ -403,7 +407,7 @@ void Raster()
     }
     if(byteRead==0){
       //analogWrite (LASER, OFF);
-      serial_reset_read_buffer2();
+      //serial_reset_read_buffer2();
       printStringS1("p0\n");
       //printString("done\n");
     }
