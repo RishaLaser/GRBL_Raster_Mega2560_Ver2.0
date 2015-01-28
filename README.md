@@ -8,8 +8,6 @@ Arduino Library for GRBL - This way you can use the Arduino IDE to upload GRBL t
 How to install it:
 ==================
 
-- Down load the library from GitHub : https://github.com/Protoneer/GRBL-Arduino-Library/archive/master.zip
-
 - Unzip the library and copy the main folder into the “Libraries” folder in the folder you installed your Arduino software. Eg. C:\arduino-1.0.3\libraries\
 
 - Rename the folder to “GRBL”. (This will stop the Arduino IDE from complaining about the long folder name)
