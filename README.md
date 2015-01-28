@@ -27,4 +27,3 @@ Added Modifications In This Version
 -------------------------------------
 1) Power Control Using PWM Generated From Atmega328p
 2) Serial 1 Usage Of Arduino Mega (For Atmega328 Communication)
-
